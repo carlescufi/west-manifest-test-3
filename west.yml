@@ -1,0 +1,13 @@
+manifest:
+  remotes:
+    - name: ncs
+      url-base: https://github.com/carlescufi
+  projects:
+    - name: nrf
+      repo-path: west-manifest-test-2.git
+      remote: ncs
+      revision: master
+      import: true
+
+  self:
+    path: myapp
